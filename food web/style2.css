@@ -1,0 +1,200 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222;
+    padding: 15px 10%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    color: white;
+    z-index: 1000;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+nav button {
+    background: rgb(211, 173, 123);
+    border: none;
+    color: #fff;
+    padding: 12px 35px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 2rem;
+    transition: .5s;
+}
+
+nav button:hover {
+    scale: .8;
+}
+/* Header */
+header {
+    background: url('https://tse4.mm.bing.net/th?id=OIP.wOHlfOcWoFA8UI_2lPsHugHaE8&pid=Api&P=0&h=180') no-repeat center/cover;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+}
+
+header h1 {
+    font-size: 36px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+}
+
+header p {
+    font-size: 18px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px 15px;
+    margin-top: 10px;
+}
+
+/* AI Summary */
+.ai-summary {
+    text-align: center;
+    padding: 20px;
+    background: #f8f8f8;
+}
+
+.ai-summary h2 {
+    font-size: 24px;
+}
+
+.ai-summary p {
+    font-size: 18px;
+    font-style: italic;
+}
+
+/* Review Section */
+.reviews {
+    padding: 20px;
+    background: white;
+    text-align: center;
+}
+
+.reviews h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.review {
+    display: flex;
+    align-items: center;
+    background: #eee;
+    padding: 15px;
+    margin: 10px auto;
+    width: 60%;
+    border-radius: 8px;
+}
+
+.review img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.review-text {
+    text-align: left;
+}
+
+.review-text h3 {
+    font-size: 20px;
+}
+
+.review-text p {
+    margin: 5px 0;
+}
+
+/* Poll Section */
+.poll {
+    text-align: center;
+    background: #ffd700;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.poll h2 {
+    font-size: 24px;
+}
+
+.poll form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.poll label {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.poll button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.poll button:hover {
+    background: #333;
+}
+
+/* Social Media */
+.social {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
+
+.social a {
+    color: #ffd700;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+.social a:hover {
+    text-decoration: underline;
+}
