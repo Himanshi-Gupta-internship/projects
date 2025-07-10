@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/login.css">
+    <title>Login Page</title>
+</head>
+
+<body>
+    <main>
+        <form>
+            <h1>Login To Your Account</h1>
+            <div id="formcontainer">
+                <h3>Enter Your Email</h3>
+                <input type="email" name="email" id="email" placeholder="enter your email">
+                <h3>Enter Your password</h3>
+                <input type="password" name="password" id="password" placeholder="enter your password">
+                <button type="submit">Sign in</button>
+                <span>
+                    <a href="signup.html">Don't have an account</a>
+                    <a href="forget.html">Forget Password?</a>
+                </span>
+            </div>
+            <div>
+                <button>Continue With Google</button>
+                <p id="error" style="color:red; "></p>
+            </div>
+        </form>
+    </main>
+    <script src="../scripts/login.js"></script>
+</body>
+
+</html>
