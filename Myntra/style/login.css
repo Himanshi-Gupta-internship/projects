@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'bold';
+    src: url('../aseets/Assistant-Bold.woff');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url('https://tse4.mm.bing.net/th?id=OIP.ITu5iJ6RqfNBC1NZcIid4AHaF7&pid=Api&P=0&h=180');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: aliceblue;
+    display: flex;
+    margin-top: 6%;
+    margin-bottom: 2.5%;
+    justify-content: center;
+    font-family: bold;
+}
+#formcontainer{
+    background-color: white;
+    max-width: 500px;
+    max-height: 900px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,1,0.7);
+}
+input[type="password"],
+input[type="email"],
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 11px;
+    margin-bottom: 19px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+button[type="submit"]{
+    width: 35%; 
+    margin-top: 20px; 
+    margin-left: 33%;
+    margin-bottom: 3%;
+    cursor: pointer; 
+    font-size: 20px; 
+    border: 1px solid transparent; 
+    border-radius: 20px; 
+    padding: 8px 9px;;
+    color: rgb(245, 242, 242); 
+    background-color: rgb(50, 211, 60);
+    font-family: bold;
+}
+button{
+    width: 34%; 
+    margin-top: 20px; 
+    margin-left: 33%;
+    margin-bottom: 3%;
+    cursor: pointer; 
+    font-size: 20px; 
+    border: 1px solid transparent; 
+    border-radius: 20px; 
+    padding: 6px 10px;;
+    color: rgb(245, 242, 242); 
+    background-color: rgb(50, 211, 60);
+    font-family: bold;
+}
+a{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: bold;
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+}
+#error{
+    display: flex;
+    font-family: bold;
+    font-size: 19px;
+    justify-content: center;
+}
